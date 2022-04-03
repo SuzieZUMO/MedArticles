@@ -221,7 +221,8 @@ a {
 
 .ais-Hits-item .post-img a,
 .ais-Hits-item .post-img img {
-  width: 100%;
+  /*width: 100%;*/
+  height:200px;
   display: block;
 }
 
@@ -239,12 +240,13 @@ a {
   }
 
   .ais-Hits-item .post-img a {
-    height: 100%;
+    /*height: 100%;*/
+    height: 200px;
   }
 
   .ais-Hits-item .post-img img {
     width: auto;
-    height: 100%;
+    height: 200px;/* 100%;*/
     display: block;
   }
 }
@@ -417,4 +419,25 @@ footer {
 
 #pagination:empty:before {
   content: "Uncomment the pagination widget to add pagination.";
+}
+
+/* Header/Logo Title */
+.header {
+    /*padding: 0 0 10px 0;*/
+    text-align: center;
+    background: #3c4acb;
+    color: white;
+    font-size: 18px;
+    /*min-height: 50px;*/
+    margin-bottom: 8px;
+}
+
+.footer {
+    /*padding: 0 0 10px 0;*/
+    text-align: center;
+    background: #3c4acb; /*#1abc9c*/
+    color: white;
+    /* font-size: 20px;
+    min-height: 50px;*/
+    margin-top: 8px;
 }
