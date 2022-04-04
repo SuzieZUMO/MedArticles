@@ -10,6 +10,7 @@ import "./App.css";
 import Stats from "./Stats.js";
 import Content from "./Content";
 import Facet from "./Facet";
+import Footer from './Footer';
 
 class App extends Component {
   render() {
@@ -43,16 +44,17 @@ class App extends Component {
               <Pagination />
             </div>
           </div>
-          <div className="left-panel">
+            <div className="left-panel hidden-xs">
             <div id="categories">
               {/* Uncomment the following widget to add categories list */}
               <Panel header="Categories">
                 <Facet attribute="categories" />
               </Panel>
             </div>
-          </div>
-        </main>
-      </InstantSearch>
+                </div>
+            </main>
+            <Footer />
+        </InstantSearch>       
     );
   }
 }

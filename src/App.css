@@ -441,3 +441,14 @@ footer {
     min-height: 50px;*/
     margin-top: 8px;
 }
+
+@media (max-width: 818px) {
+    .hidden-sm {
+        display: none !important;
+    }
+}
+@media (max-width: 500px) {
+    .hidden-xs {
+        display: none !important;
+    }
+}

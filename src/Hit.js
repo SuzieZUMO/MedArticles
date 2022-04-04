@@ -8,7 +8,7 @@ function Hit({ hit }) {
   return (
     <div>
       <article>
-        <div className="post-img">
+              <div className="post-img hidden-sm">
           <a href={hit.permalink}>
             <img src={hit.image} />
           </a>
